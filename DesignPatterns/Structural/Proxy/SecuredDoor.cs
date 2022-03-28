@@ -1,6 +1,6 @@
 namespace DesignPatterns.Structural.Proxy;
 
-class SecuredDoor : IDoor
+class SecuredDoor : IPasswordDoor
 {
     private IDoor mDoor;
 
@@ -13,7 +13,7 @@ class SecuredDoor : IDoor
     {
         mDoor.Close();
     }
-
+    
     public void Open(string password)
     {
         if(Authenticate(password))
@@ -30,4 +30,5 @@ class SecuredDoor : IDoor
     {
         return password == "Secr@t";
     }
+
 }
