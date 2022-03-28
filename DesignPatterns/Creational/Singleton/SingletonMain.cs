@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.Singleton;
 
 class SingletonMain
 {
-    public static void Main()    
+    public static void Run()    
     {
         President a = President.GetInstance();
         President b = President.GetInstance();

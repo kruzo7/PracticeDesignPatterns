@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.Builder;
 
 class BuilderMain
 {
-    public static void Main()
+    public static void Run()
     {
         var burger = new BurgerBuilder(4).AddCheese().AddPepperoni().AddLettuce().AddTomato().Build();
 

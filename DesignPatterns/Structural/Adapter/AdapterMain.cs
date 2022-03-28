@@ -2,7 +2,7 @@ namespace DesignPatterns.Structural.Adapter;
 
 class AdapterMain
 {
-    public static void Main()
+    public static void Run()
     {
         var wildDog = new WildDog();
         var wildDogAdapter = new WildDogAdapter(wildDog);

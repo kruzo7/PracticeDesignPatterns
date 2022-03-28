@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.AbstractFactory;
 
 class AbstractFactoryMain
 {
-    public static void Main()
+    public static void Run()
     {
         var woodenDoorFactory = new WoodenDoorFactory();
         var woodenDoor = woodenDoorFactory.MakeDoor();

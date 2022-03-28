@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.Prototype;
 
 class PrototypeMain
 {
-    public static void Main()
+    public static void Run()
     {
         var orginal = new Sheep("Jolly", "Mountain Sheep");
         Console.WriteLine(orginal.Name);

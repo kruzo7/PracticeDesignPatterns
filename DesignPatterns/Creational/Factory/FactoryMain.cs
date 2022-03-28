@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.Factory;
 
 class FactoryMain
 {
-    public static void Main()
+    public static void Run()
     {
         var devManager = new DevelopmentManager();
         devManager.TakeInterview();
