@@ -13,6 +13,6 @@ class Sheep
 
     public Sheep Clone()
     {
-        return MemberwiseClone() as Sheep;
+        return (Sheep)MemberwiseClone();
     }
 }
