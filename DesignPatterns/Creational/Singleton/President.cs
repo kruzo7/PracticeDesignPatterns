@@ -2,7 +2,7 @@ namespace DesignPatterns.Creational.Singleton;
 
 class President
 {
-    private static President instance;
+    private static President? instance;
     private President()
     {
         
