@@ -1,6 +1,6 @@
 namespace DesignPatterns.Behavioral.Mediator;
 
-public class User
+class User
 {
     private IChatRoomMediator mChatRoom;
     private string mName;
