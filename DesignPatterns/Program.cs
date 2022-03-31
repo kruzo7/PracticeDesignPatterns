@@ -1,6 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿namespace DesignPatterns;
 
-// DesignPatterns.Structural.Decorator.DecoratorMain.Run();
+class Program
+{
+    public static void Main()
+    {
+        // See https://aka.ms/new-console-template for more information
+        //Console.WriteLine("Hello, World!");
 
-DesignPatterns.Behavioral.ChainOfResponsibility.ChainOfResponsibilityMain.Run();
+        // DesignPatterns.Structural.Decorator.DecoratorMain.Run();
+        DesignPatterns.Behavioral.ChainOfResponsibility.ChainOfResponsibilityMain.Run();
+    }
+
+}
